@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Job Application</title>
+</head>
+<body>
+
+<h1>J.P Morgan Summer Analyst</h1>
+<h2>Job Application</h2>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post"></form>
+
+	<fieldset>
+		<legend>Sign Up</legend>
+		<div class="field">
+			<label>First Name:</label> 
+			<input type="text" name="firstname"><br>
+		</div>
+        <div class="field">
+			<label>Last Name:</label> 
+			<input type="text" name="lastname"><br>
+		</div>
+		<div class="field">
+			<label>Email:</label> 
+			<input type="text" name="email">
+		</div>
+		<div class="field">
+			<label>Password:</label> 
+			<input type="password" name="pwd">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Education</legend>
+		<div class="field">
+			<label>Do you have a college degree?</label>
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
+		</div>
+		<div class="field">
+			<label>What is your Major?</label>
+			<select name="cars"> 
+				<option value="accounting">Accounting</option> 
+				<option value="business">Business</option> 
+				<option value="economics">Economics</option> 
+				<option value="finance">Finance</option> 
+				<option value="other">Other</option> </select>
+		</div>
+		<div class="field">
+			<label>What relevant courses did you take? (check all that apply)</label><br>
+			<input type="checkbox" name="course" value="accounting">Acctg 200<br> 
+			<input type="checkbox" name="course" value="economics">Econ 200<br>
+			<input type="checkbox" name="course" value="finance">Fin 200<br>
+			<input type="checkbox" name="course" value="business">Bus 200<br>
+		</div>
+		<div class="field">
+			<label>Biggest takeaway from college</label>
+			<textarea name="essay">...</textarea>
+		</div>
+	</fieldset>
+
+	<input type="submit" value="Submit form">
+
+</form>
+</body>
